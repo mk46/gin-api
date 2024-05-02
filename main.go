@@ -110,7 +110,7 @@ func getBookbyId(id string) (*book, error) {
 func updateBook(b *book) {
 	for i, v := range books {
 		if v.ID == b.ID {
-			books[i] = v
+			books[i] = *b
 		}
 	}
 }
