@@ -5,3 +5,8 @@ A simple demonstration of library application, where you can
 2. Get all books
 3. Get a book by its Id
 4. You can return or checkout a book(Quantity of book will be updated accordingly).
+
+## How to run
+``` bash
+go run main.go
+```
